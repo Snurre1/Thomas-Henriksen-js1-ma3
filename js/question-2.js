@@ -1,14 +1,4 @@
 /* 
-Question 1
-Convert the function below to an arrow function:
-function getRemainder(a,b) {
-return a % b;
-}
-*/
-
-const getRemainder = (a, b) => a % b;
-
-/* 
 Question 2
 Make a call to the Rawg API.
 
@@ -55,7 +45,7 @@ async function getRawg() {
     <div>Tags: ${gameChanger[i].tags.length}</div></div>`;
     }
   } catch (error) {
-    heyContainer.innerHTML = displayError("OH NO, something went wrong");
+    heyContainer.innerHTML = "OH NO, something went wrong";
   }
 }
 getRawg();
